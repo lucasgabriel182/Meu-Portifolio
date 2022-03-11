@@ -1,0 +1,80 @@
+body {
+    background-image: url(../img/body2.jpg);
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.box1 {
+    color: white;
+    text-align: center;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+}
+
+th {
+    text-align: center;
+    border: 1px solid white;
+}
+
+td {
+    text-align: center;
+    border: 1px solid white;
+}
+
+footer {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
