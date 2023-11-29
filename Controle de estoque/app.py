@@ -4,10 +4,10 @@ import yagmail
 
 app = Flask(__name__)
 
-DB_HOST = "127.0.0.1"
-DB_USER = "root"
-DB_PASSWORD = "28491@Lucas"
-DB_NAME = "estoque"
+DB_HOST = "*****"
+DB_USER = "*****"
+DB_PASSWORD = "*****"
+DB_NAME = "*****"
 
 def create_table():
     conn = pymysql.connect(
@@ -42,8 +42,8 @@ def obter_itens_do_banco():
     return itens
 
 def enviar_email_com_lista(estoque, destinatario_email):
-    remetente_email = "lucas.gabriel@webrota.com.br"
-    remetente_senha = "28491@Lucas"
+    remetente_email = ""*****""
+    remetente_senha = ""*****"
 
     yag = yagmail.SMTP(remetente_email, remetente_senha)
 
